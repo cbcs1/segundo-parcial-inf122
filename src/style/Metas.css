@@ -1,0 +1,117 @@
+:root{
+    --black: #1B1C1F;
+    --green:#1C9675;
+    --white:#F6F7F9;
+    --red:#B2324A;
+    --greenFonts:#117A7A;
+    --grayFonts:#767E8C;
+    --sm:18px;
+
+
+}
+.principal{
+  display: grid;
+  grid-template-columns: auto;
+  justify-items: center;
+  align-items: center;
+  font-family: 'Overpass', sans-serif;
+  margin-top: 100px;
+}
+.metas{
+    margin-top: 200px;
+    display: flex;
+    margin-top: 20px;
+    width: 600px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: var(--white);
+    flex-direction: initial;
+    align-items: center;
+}
+.entrada{
+    
+    background-color: var(--white);
+    height: 40px;
+    width: 540px;
+    border:none;
+    font-size: var(--sm);
+}
+button{
+    border:none;
+    background-color: var(--green);
+    border-left: 0px;
+    border-radius: 5px;
+    width: 150px;
+    height: 60px;
+    color: var(--white);
+    font-size: var(--sm);
+   
+}
+button:hover{
+   cursor: pointer;
+}
+.revision{
+    display: flex;
+    margin-top: 20px;
+    width: 600px;
+    height: 50px;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    
+    color: var(--black);
+}
+.completado{
+    display: flex;
+    background-color: var(--white);
+    width: 300px;
+    height: 50px;
+    
+    align-items: center;
+   
+   margin-right: 15px;
+   border-radius: 10px;
+   color: var(--greenFonts);
+   font-size: var(--sm);
+
+}
+.pendiente{
+    display: flex;
+    background-color: var(--white);
+    width: 300px;
+    height: 50px;
+   
+    align-items: center;
+    border-radius: 10px;
+    color: var(--red);
+    font-size: var(--sm);
+}
+
+.aparecer{
+    display: flex;
+    flex-direction: initial;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: var(--white);
+    color: var(--black);
+    width: 600px;
+    height: 60px;
+    margin-bottom: 50%;
+    font-size: var(--sm);
+}
+.nuevanota{
+    display: flex;
+    flex-direction: initial;
+    width: 550px;
+}
+.icon{
+    justify-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 20px;
+    height: 60px;
+}
+figure:hover{
+    cursor: pointer;
+}
